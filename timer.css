@@ -1,0 +1,105 @@
+/* Set margin, padding background properties for the body */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+/* Margin for h4 tag */
+.bankai {
+  margin: 20px;
+}
+
+/* Styling for the container */
+.container {
+  margin: 100px;
+  width: auto;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Styling for images */
+img {
+  float: left;
+  margin-right: 40px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+/* Flex display for countdown */
+.cdt {
+  display: flex;
+}
+
+/* Styling for countdown timer and description text */
+.enc1 {
+  padding: 0.5%;
+  background-color: #ddebff;
+  height: auto;
+  border-radius: 20px;
+  margin-left: 0;
+  width: auto;
+}
+
+/* Styling for terms and condition */
+.tac {
+  background-color: rgb(244, 221, 255);
+  border-radius: 20px;
+  height: auto;
+  width: 25%;
+  padding: 15px;
+  margin: auto;
+}
+
+/* Styling for countdown elements */
+.idt {
+  border: 5px;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+/* Styling for span elements */
+span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styling for timer text */
+.nu {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 1199px) {
+  /* Adjustments for images */
+  img {
+    float: none;
+    margin: 0 15px !important;
+    width: 90%;
+  }
+  /* Adjustments for container */
+  .container {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: auto;
+    padding: 0 !important;
+    box-sizing: border-box;
+    position: relative;
+  }
+  /* Adjustments for terms and conditions */
+  .tac {
+    width: auto;
+  }
+  /* Adjustments for countdown timer and description text class */
+  .enc1 {
+    margin-top: 25px;
+  }
+  /* Adjustments for span elements */
+  span {
+    font-size: 15px;
+  }
+}
